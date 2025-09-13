@@ -11,17 +11,12 @@ The app is a simple Flutter application integrated with Firebase Authentication 
 - **Firebase Authentication** for user registration and login.  
 - **Home Page** that greets the logged-in user by name.  
 - **Logout button** to sign out and return to the login page.  
-- **authStateChanges()** used to automatically switch between Login and Home depending on authentication state.  
+- **userChanges()** used to automatically switch between Login and Home depending on authentication state.  
 - **State Mangement(Cubit)** for All Application
 
 
 
 ## Setup Instructions
-1. Clone the repository:
-   
-   git clone https://github.com/<your-username>/<repo-name>.git
- 
-   
 
 2. Install dependencies:
  
@@ -45,7 +40,7 @@ I built a simple Flutter app that uses **Firebase Authentication** to handle use
 - The **Login Page** contains fields for Full Name, Email, and Password with validation.  
 - When a new user registers, their full name is stored in Firebase Authentication (`displayName`).  
 - After successful login, the user is redirected to a **Home Page** that displays a personalized greeting with their name and provides a logout button.  
-- I used `authStateChanges()` to automatically switch between LoginPage and HomePage depending on authentication state.  
+- I used `userChanges()` to automatically switch between LoginPage and HomePage depending on authentication state.  
 
 
 
