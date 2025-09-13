@@ -2,7 +2,7 @@ import 'package:babylon_login/Auth/Login%20cubit/login_auth_cubit.dart';
 import 'package:babylon_login/Core/utils/custom_button.dart';
 import 'package:babylon_login/Core/utils/custom_text_button.dart';
 import 'package:babylon_login/Core/utils/show_msg.dart';
-import 'package:babylon_login/Views/Login/Widgets/custom_text_form.dart';
+import 'package:babylon_login/Core/utils/custom_text_form.dart';
 import 'package:babylon_login/Views/SignUp/UI/sign_up_view.dart';
 import 'package:babylon_login/Views/home_view.dart';
 import 'package:flutter/material.dart';

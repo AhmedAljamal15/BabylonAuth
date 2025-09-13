@@ -3,7 +3,7 @@ import 'package:babylon_login/Core/utils/custom_button.dart';
 import 'package:babylon_login/Core/utils/custom_text_button.dart';
 import 'package:babylon_login/Core/utils/show_msg.dart';
 import 'package:babylon_login/Views/Login/UI/login_view.dart';
-import 'package:babylon_login/Views/Login/Widgets/custom_text_form.dart';
+import 'package:babylon_login/Core/utils/custom_text_form.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
